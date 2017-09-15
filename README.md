@@ -16,6 +16,8 @@ d)
 
 4. Implementing the bisection method:
 
+The following algorithm assumes that 'f' is the hardcoded function with takes a real input and delivers a real output
+```C++
     double bisect(double a, double b, double tol, int maxIters){
       double error = 10.0*tol;
       fa=f(a);
@@ -40,3 +42,4 @@ d)
       }
       return c;
     }
+```
